@@ -1,0 +1,28 @@
+{
+  "type": "nodes",
+  "serviceInstance": "car-appraising-service-int",
+  "items": [
+    {
+      "name": "carbook001.int.example.com-int",
+      "version": "1.0.0",
+      "machine": "carbook001.int.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.13.0.7"
+        }
+      ]
+    },
+    {
+      "name": "carbook002.int.example.com-int",
+      "version": "1.0.0",
+      "machine": "carbook002.int.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.13.0.8"
+        }
+      ]
+    }
+  ]
+}
