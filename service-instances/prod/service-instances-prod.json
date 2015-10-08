@@ -1,0 +1,33 @@
+{
+  "type": "service-instances",
+  "items": [
+    {
+      "key": "car-appraising-service-prod",
+      "environment": "prod",
+      "service": "car-appraising-service",
+      "dataCenter": "aws-us-east-1a",
+      "ipAddressRoles": [
+        {
+          "name": "default",
+          "description": "Default role"
+        }
+      ],
+      "ports": [
+        {
+          "description": "",
+          "number": "8443",
+          "protocol": "https"
+        },
+        {
+          "description": "",
+          "number": "8080",
+          "protocol": "http"
+        }
+      ],
+      "minCapacityOps": 67,
+      "minCapacityDeploy": null,
+      "loadBalanced": true,
+      "eosManaged": true
+    }
+  ]
+}

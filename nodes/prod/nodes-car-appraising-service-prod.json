@@ -1,0 +1,39 @@
+{
+  "type": "nodes",
+  "serviceInstance": "car-appraising-service-prod",
+  "items": [
+    {
+      "name": "carbook001.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "carbook001.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.13"
+        }
+      ]
+    },
+    {
+      "name": "carbook002.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "carbook002.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.14"
+        }
+      ]
+    },
+    {
+      "name": "carbook003.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "carbook003.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.15"
+        }
+      ]
+    }
+  ]
+}
