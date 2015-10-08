@@ -34,6 +34,17 @@
           "ipAddress": "10.1.0.15"
         }
       ]
+    },
+    {
+      "name": "carbook004.prod.example.com-prod",
+      "version": "1.0.0",
+      "machine": "carbook004.prod.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.1.0.16"
+        }
+      ]
     }
   ]
 }
